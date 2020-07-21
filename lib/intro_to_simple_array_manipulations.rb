@@ -11,8 +11,9 @@ end
 
 def using_pop(continents, deleted_string)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  continents.pop
-  p continents
+  new_continents = continents.pop
+  p new_continents
+   
 end
 
 def pop_with_args(dog_breeds, small_dogs)
@@ -23,13 +24,11 @@ def pop_with_args(dog_breeds, small_dogs)
 end
 
 def using_shift(my_favorite_city, im_so_over_this_city)
-  my_favorite_city.shift 
-  p my_favorite_city
+  p fav_city = my_favorite_city.shift
 end
 
 def shift_with_args(ice_cream_brands, brands_removed)
   ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-  ice_cream_brands.shift
-  ice_cream_brands.shift
-  p ice_cream_brands
+  p ice_cream1 = ice_cream_brands.shift
+  p ice_cream2 = ice_cream_brands.shift
 end
