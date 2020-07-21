@@ -18,7 +18,6 @@ end
 def pop_with_args(dog_breeds)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
   dog_breeds.pop(2)
-  p dog_breeds
 end
 
 def using_shift(my_favorite_city, im_so_over_this_city)
