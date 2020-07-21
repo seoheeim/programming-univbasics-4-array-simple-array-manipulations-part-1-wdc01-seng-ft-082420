@@ -21,7 +21,7 @@ def pop_with_args(dog_breeds)
 end
 
 def using_shift(my_favorite_city, im_so_over_this_city)
-  p fav_city = my_favorite_city.shift
+ fav_city = my_favorite_city.shift
 end
 
 def shift_with_args(ice_cream_brands, brands_removed)
