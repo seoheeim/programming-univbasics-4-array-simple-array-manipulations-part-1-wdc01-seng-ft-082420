@@ -26,6 +26,5 @@ end
 
 def shift_with_args(ice_cream_brands, brands_removed)
   ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-  p ice_cream1 = ice_cream_brands.shift
-  p ice_cream2 = ice_cream_brands.shift
+  ice_cream_brands.shift(2)
 end
