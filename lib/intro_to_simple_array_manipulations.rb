@@ -11,7 +11,8 @@ end
 
 def using_pop(continents)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  deleted_string = continents.pop("Antarctica")
+  continents.pop 
+  deleted_string = continents.pop
   p continents
   p deleted_string
    
