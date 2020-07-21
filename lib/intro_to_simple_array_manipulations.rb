@@ -20,8 +20,8 @@ def pop_with_args(dog_breeds)
   dog_breeds.pop(2)
 end
 
-def using_shift(my_favorite_city, im_so_over_this_city)
- fav_city = my_favorite_city.shift
+def using_shift(my_favorite_city)
+  im_so_over_this_city = my_favorite_city.shift 
 end
 
 def shift_with_args(ice_cream_brands, brands_removed)
