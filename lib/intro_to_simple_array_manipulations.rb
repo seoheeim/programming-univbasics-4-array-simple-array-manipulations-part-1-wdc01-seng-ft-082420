@@ -12,7 +12,8 @@ end
 def using_pop(continents)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   broken_continent = continents.pop
-  continents
+  p broken_continents
+  return continents
 end
 
 def pop_with_args(dog_breeds)
